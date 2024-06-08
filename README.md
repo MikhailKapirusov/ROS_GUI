@@ -1,5 +1,6 @@
+# **Robot Movement Control**
 # ROS_GUI
-Graphical interface of the software system for controlling the movement of a mobile robot
+Graphical interface of the software system for controlling the movement of a mobile robot named ***Robot Movement Control***.
 
 ## Background
 
@@ -9,6 +10,7 @@ The requirement for the system was to provide the ability to control the robot f
 In view of these features, it was determined that the software system should consist of three parts: a client application, a protocol conversion module as part of the built-in software of the mobile robot and a server.
 
 ***The client application is provided here, offline navigation for the mobile robot is provided, and the server installer is provided in other repositories.***
+![Screenshot](https://github.com/MikhailKapirusov/ROS_GUI/blob/main/Pic1.JPG)
 
 ## Instalation
 *COMING SOON*
