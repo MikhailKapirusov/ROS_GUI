@@ -11,9 +11,16 @@ The requirement for the system was to provide the ability to control the robot f
 In view of these features, it was determined that the software system should consist of three parts: a client application, a protocol conversion module as part of the built-in software of the mobile robot and a server.
 
 ***The client application is provided here, offline navigation for the mobile robot is provided, and the server installer is provided in other repositories.***
+
 ![Screenshot](https://github.com/MikhailKapirusov/ROS_GUI/blob/main/Pic1.JPG)
-ROBOT: *Coming soon*
-SERVER: *Coming soon*
+
+For the robot you need to install ROS + explorer_lite (or m-explore-2) + protocol conversion module
+
+- m-explore-2 (https://github.com/MikhailKapirusov/m-explore-2)
+
+- protocol conversion module (https://github.com/MikhailKapirusov/Protocol-Conversion-Module)
+
+For the server, you need to install and configure the ejabberd server and cotunr as a STUN server.
 
 ## Installation
 ***!Before executing the script, you must create the /usr/local/lib/ros-gui/ directory. You need to move the files ROS_GUI.py and logo.png (program shortcut) to the previously created directory!***
